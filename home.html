@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="other.css">
+  <script src="https://kit.fontawesome.com/500e3b2020.js" crossorigin="anonymous"></script>
+
+
+   
+</head>
+<body>
+  <div id="c-form">
+    <i class="far fa-times-circle fa-2x c-icons close-icon"></i>
+
+    <h3 class="title-start">Contact me</h3>
+
+    <form class="contact-form">
+      <label for="">Name</label><br />
+      <input class="name" type="text" placeholder="name" /><br />
+      <label for="">Email</label><br />
+      <input class="email" type="email" placeholder="email" /><br />
+      <label for="">Message</label><br />
+      <textarea
+        class="message"
+        name=""
+        id=""
+        cols="30"
+        rows="10"
+        placeholder="message"
+      ></textarea
+      ><br />
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+  
+  <div class="container">
+    <nav>
+      <div class="nav-box">
+        <div class="navbar-links">
+          <ul>
+            <li><a href="" class="active">Home</a></li>
+            <li><a href="#project_heading" class="active" id="code">Projects</a></li>
+            <li><a href="#about-me-info" class="active" id="about">About</a></li>
+            <li><a href="#c-form" class="active" id="contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="bio">
+      <div class="desc">
+        <p><a id = "green-back" href="">Hello, I'm </a></p>
+        <br>
+        <div class="info">
+          <div class="name-title">
+            <h1 class="title-start">Robin O'Shea</h1>
+            <h2 class="title-start">Software Engineer</h2> 
+          </div>
+          <br>
+          <ul class="contact-details">
+            <li><i class="far fa-envelope c-sicons"></i>robinoshea10@gmail.com</li>
+            <li><i class="fas fa-phone c-sicons"></i>0863752711</li>
+            <li><i class="fas fa-map-marker-alt c-sicons"></i>37 Carrickbrack Heath Sutton, Dublin, Ireland</li>
+          </ul>
+          <div class="contact-icons">
+            <a href="www.facebook.com/robby.oshea.3/"><i class="fab fa-facebook fa-2x c-icons"></i></a>
+            <a href="https://www.linkedin.com/in/robin-o-shea-035b2a223"><i class="fab fa-linkedin fa-2x c-icons"></i></a>
+            <a href="https://github.com/RobinOShiaa"><i class="fab fa-github fa-2x c-icons"></i></a>
+          </div>
+        </div>
+      </div>
+      
+      <div id="profile-pic">
+        <div class="multi-border">
+            <img src="./profiler.jpg" alt="Me">
+        </div>
+      </div>
+    </div>
+
+    <div class="green">
+      <h3 id="project_heading">Projects</h3>
+        <div class="horizontal-scroll">
+          <button class="btn-scroll" id="btn-scroll-left" onclick="scrollHorizontally(1)"><i class="fas fa-chevron-left"></i></button>
+          <button class="btn-scroll" id="btn-scroll-right" onclick="scrollHorizontally(-1)"><i class="fas fa-chevron-right"></i></button>
+          <div class="story-container">
+            <div id="story-circle"><img src="./img/dcu-campus.jpg" alt="">
+              <div class="image_overlay">
+                <div class="image_title">DCUGO</div>
+                <p class="image_description">A Unity based mobile application that directs students around a 3D map interface of DCU campus and will be guided to their next lecture based on the students course code, year and timetable</p>
+                <button class="project-btn"><a href="https://github.com/mcloue25/CA326">View Github Repository</a></button>
+                
+              </div>
+    
+            </div>
+            <div id="story-circle"><img src="./img/data-collection.png" alt="">
+              <div class="image_overlay">
+                <div class="image_title">Web Scrapers</div>
+                <p class="image_description">An automated webscraping system. Data is sourced from thirty eight sites which is stored in a SQL database and is monitored through a django web framework, testing is automated with jenkins</p>
+                <button class="project-btn"><a href="https://github.com/SuzanneMcC/Datas_V2">View Github Repository</a></button>
+                
+              </div>
+            </div>
+            <div id="story-circle"><img src="./img/phone-app.png" alt="">
+              <div class="image_overlay">
+                <div class="image_title">Mylio</div>
+                <p class="image_description">Android application that records a users grocery produce via image recognition of receipts and aims to prescribe recipes to the user based off the percieved data</p>
+                <button class="project-btn"><a href="https://github.com/mcloue25/CA326">View Github Repository</a></button>
+              </div>
+            </div>
+
+            <div id="story-circle"><img src="./img/imagre chat.png" alt="">
+              <div class="image_overlay">
+                <div class="image_title">Chat Application</div>
+                <p class="image_description">Web server chat application using web socketets, users are able to login with their own username and join a room by giving its name from there they can send messages to other users in the room and send their current location</p>
+                <button class="project-btn"><a href="https://github.com/RobinOShiaa/Chat-Application">View Github Repository</a></button>
+              </div>
+            </div>
+
+            <div id="story-circle"><img src="./img/taskappp.jpg" alt="">
+              <div class="image_overlay">
+                <div class="image_title">Task Application</div>
+                <p class="image_description">Simple web server for handling hhtp requests and parsing json data recieved. a visitor to the site is able to create an account, update their profile picture or account details. all accounts have their own authentication token representated by a json web token their details are stored on a mongodb server </p>
+                <button class="project-btn"><a href="https://github.com/RobinOShiaa/Task_Manager_App">View Github Repository</a></button>
+              </div>
+            </div>
+
+            
+          </div>
+
+          
+        </div>
+        </div>
+      </div>
+
+    <div class="about-me">
+      <div class="working-man">
+        <img src="./computer-work.png" alt="">
+      </div>
+      <div id="about-me-info"><h2>About Me</h2>
+        <br>
+        <p>Hello I'm Robin, I graduated from Dublin College University in 2020. and I have a BSci in Computer Applications and Software Engineering. I'm very much interested in all areas of my qualitfication and have fine aptitude of experiences in the following areas of expertise</p>
+        <span class="areas">Python</span>
+        <span class="areas">Java</span>
+        <span class="areas">Javascript</span>
+        <span class="areas">HTML</span>
+        <span class="areas">CSS</span>
+        <span class="areas">C#</span>
+        <span class="areas">React</span>
+        <span class="areas">MYSQL</span>
+        <span class="areas">Unity</span>
+        <span class="areas">Assembly</span>
+        <span class="areas">MongoDB</span>
+        <span class="areas">Nodejs</span>
+        <span class="areas">Bash/Batch</span>
+
+
+        <a id = "green-back" class="download" href="RobinCVFinal2.docx"><i class="fas fa-arrow-down"></i>Download CV </a>
+      </div>
+    </div>
+  </div>
+
+   
+<script>
+    let currentScrollPosition = 0
+    let scrollAmount = 320
+    
+    const sCont = document.querySelector(".story-container");
+    const hScroll = document.querySelector(".horizontal-scroll")
+    const btnScrollLeft = document.querySelector("#btn-scroll-left")
+    const btnScrollRight = document.querySelector("#btn-scroll-right")
+    btnScrollLeft.style.opacity = "0"
+
+    let maxScroll = -sCont.offsetWidth + hScroll.offsetWidth
+
+    function scrollHorizontally(val) {
+      currentScrollPosition += (val * scrollAmount);
+      if(currentScrollPosition > 0){
+        currentScrollPosition = 0
+        btnScrollLeft.style.opacity = "0"
+
+      } else {
+        btnScrollLeft.style.opacity = "1"
+
+      }
+
+      if(currentScrollPosition < maxScroll) {
+        currentScrollPosition = maxScroll
+        btnScrollRight.style.opacity = "0"
+
+      } else {
+        btnScrollRight.style.opacity = "1"
+
+      }
+      sCont.style.left = currentScrollPosition + "px"
+    }
+</script>
+
+
+<script src=" https://smtpjs.com/v3/smtp.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase.js"></script>
+  <!-- <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-analytics.js"></script> -->
+
+<script src="contact.js"></script>
+
+</body>
+</html>
