@@ -681,7 +681,7 @@ p {
   }
 
   .download {
-    margin: auto;
+    margin:auto;
   }
 
   .contact-icons {
@@ -692,12 +692,17 @@ p {
 
   }
 
+  .name-title {
+    margin: auto;
+  }
+
 
 
   #green-back {
     position:relative;
     top:20px;
-    left:100px;
+  
+    margin:auto;
   
   }
 
@@ -738,9 +743,11 @@ p {
     max-width: 100%;
     bottom:550px;
     top:90%;
-    left:25%;
+    margin: auto;
     
   }
+
+
 
 
 
