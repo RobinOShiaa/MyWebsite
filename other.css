@@ -680,6 +680,10 @@ p {
     
   }
 
+  .download {
+    margin: auto;
+  }
+
   .contact-icons {
     display: flex;
     position: relative;
