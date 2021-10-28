@@ -1085,7 +1085,7 @@ p {
 }
 
 
-.image_overlay:hover {
+.image_overlay:hover,.image_overlaye:active{ 
   opacity: 1;
 }
 
