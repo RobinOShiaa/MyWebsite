@@ -726,6 +726,7 @@ p {
     border: 20px solid transparent;
     border-radius: 50%;
     position: relative;
+    margin: auto;
   
   
     width: 300px;
@@ -733,7 +734,7 @@ p {
     max-width: 100%;
     bottom:550px;
     top:90%;
-    left:25%;
+  
     
   }
 
