@@ -676,6 +676,7 @@ p {
     display:block;
     position:relative;
     top: 200px;
+    margin : auto;
     
   }
 
