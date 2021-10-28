@@ -628,7 +628,7 @@ p {
     color: #fff;
     display: block;
     position: relative;
-    right: 170px;
+    right: 33.3%;
   
     
   }
@@ -676,13 +676,14 @@ p {
     display:block;
     position:relative;
     top: 200px;
+    text-align:center;
     
   }
 
   .contact-icons {
     display: flex;
     position: relative;
-    left:25%;
+    left:33%;
     top:10px;
 
   }
